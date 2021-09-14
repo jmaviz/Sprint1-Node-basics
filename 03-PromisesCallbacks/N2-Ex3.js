@@ -58,3 +58,6 @@ getEmployees(id_1)
         getSalario(employee)
             .then(salari => console.log(`El salari de ${employee.name} és de ${salari}.`))
     })
+
+    //COMENTARIS PROFE:
+    //N2 E3 correcte, tot i que no sé què és el "?" de la línia 41. Typo?

@@ -69,3 +69,13 @@ getEmployees(id_4)
     })
     .then(salari => console.log(`El salari és de ${salari}.`))
     .catch(error => console.log(error))
+
+    //COMENTARIS PROFE
+
+    /*  
+    Al N3 veig que fas algunes de les coses que comento,
+    per això en aquestes entregues és millor fer un sol arxiu 
+    per tots els exercicis (t'estalvies duplicar i fer variacions de codi). 
+    Also, et podries estalviar el return i els {} del callback de la línia 67 
+    (les arrow functions ja fan un return si només hi ha una línia)
+    */

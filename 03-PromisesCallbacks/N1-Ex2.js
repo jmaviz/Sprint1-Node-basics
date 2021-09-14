@@ -10,9 +10,9 @@ const getId = (id, callback) => {
     }
 
     if (usuari.id === id) {
-        return callback(`Id ${id} es correcte. Pots accedir.`)
+        callback(`Id ${id} es correcte. Pots accedir.`)
     } else {
-        return callback(`Id ${id} es incorrecte. Error.`)
+        callback(`Id ${id} es incorrecte. Error.`)
     }
 }
 
@@ -23,3 +23,7 @@ const getId = (id, callback) => {
 getId(1, missatge => console.log(missatge));
 
 getId(2, missatge => console.log(missatge));
+
+
+//COMENTARIS PROFE
+//Al N1 E2 no calen els return de davant la funció callback (no es retorna res)

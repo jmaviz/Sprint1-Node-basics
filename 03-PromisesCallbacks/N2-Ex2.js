@@ -32,3 +32,7 @@ const usuari_1 = { id: 1, salary: 4000 };
 
 getSalario(usuari_1)
     .then(salari => console.log(`El salari és de ${salari} euros.`))
+
+
+//COMENTARIS PROFE
+//La funció del N2 E2 ha de rebre un objecte de l'altre array, no del dels salaris
